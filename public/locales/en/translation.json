@@ -1,0 +1,51 @@
+{
+  "beka": "Beka",
+  "about": {
+    "iAm": "I'm",
+    "name": "Beka Nurkas",
+    "software": "Software",
+    "skills": "Skills",
+    "language": "Language",
+    "languages": {
+      "ru": "Russian",
+      "kg": "Kyrgyz",
+      "en": "English",
+      "es": "Spanish"
+    }
+  },
+  "projects": {
+    "myLatest": "My latest",
+    "project": "Projects",
+    "view": "view project"
+  },
+  "months": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December"
+  },
+  "specializations": {
+    "service": "Service",
+    "contents": "Contents",
+    "my": "My",
+    "works": "Works"
+  },
+  "contacts": {
+    "contacts": "Contacts",
+    "project": "Have a project?"
+  },
+  "portfolio": "Portfolio",
+  "all": "All",
+  "project": {
+    "toolsUsed": "Tools used",
+    "other": "Other my projects"
+  }
+}

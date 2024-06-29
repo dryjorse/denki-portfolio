@@ -1,0 +1,51 @@
+{
+  "beka": "Beka",
+  "about": {
+    "iAm": "Soy",
+    "name": "Beka Nurkas",
+    "software": "Software",
+    "skills": "Habilidades",
+    "language": "Idiomas",
+    "languages": {
+      "ru": "Ruso",
+      "kg": "Kirguís",
+      "en": "Inglés",
+      "es": "Español"
+    }
+  },
+  "projects": {
+    "myLatest": "Mis últimos",
+    "project": "Proyectos",
+    "view": "ver proyecto"
+  },
+  "months": {
+    "jan": "Enero",
+    "feb": "Febrero",
+    "mar": "Marzo",
+    "apr": "Abril",
+    "may": "Puede",
+    "jun": "Junio",
+    "jul": "Julio",
+    "aug": "Agosto",
+    "sep": "Septiembre",
+    "oct": "Octubre",
+    "nov": "Noviembre",
+    "dec": "Diciembre"
+  },
+  "specializations": {
+    "service": "Contenidos del",
+    "contents": "Servicio",
+    "my": "Mis",
+    "works": "Trabajos"
+  },
+  "contacts": {
+    "contacts": "Contactos",
+    "project": "¿Tienes un proyecto?"
+  },
+  "portfolio": "Portafolio",
+  "all": "Toda",
+  "project": {
+    "toolsUsed": "Herramientas utilizadas",
+    "other": "Otros mis proyectos"
+  }
+}

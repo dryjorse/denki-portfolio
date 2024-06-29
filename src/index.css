@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+  body {
+    @apply font-piazzolla text-16;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-[8px];
+  }
+  ::-webkit-scrollbar {
+    @apply w-[10px];
+  }
+  h2 {
+    @apply text-[110px] font-black leading-[100px] tb:text-[70px] tb:leading-[60px] stb:text-[50px] stb:leading-[40px] amb:text-[40px] amb:leading-[35px];
+  }
+  h3 {
+    @apply font-bold;
+  }
+  .trans-def {
+    transition: 0.35s ease-out all;
+  }
+  .App {
+    overflow: hidden;
+  }
+}
+@layer components {
+  .title-help {
+    @apply text-primary italic font-extrabold tracking-[15px] stb:tracking-[10px] amb:tracking-[7px];
+  }
+  .container {
+    @apply mx-auto max-w-[1150px] blt:max-w-[816px] blt:px-[24px];
+  }
+}
