@@ -21,7 +21,7 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "/denki-portfolio-site/locales/{{lng}}/translation.json",
+      loadPath: "/denki-portfolio/locales/{{lng}}/translation.json",
     },
   });
 
