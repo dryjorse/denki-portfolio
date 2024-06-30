@@ -33,10 +33,7 @@ const Modal: FC<PropsWithChildren<IModalProps>> = ({
         { "opacity-100 pointer-events-auto": isOpen }
       )}
     >
-      <div
-        onClick={(e) => e.stopPropagation()}
-        className={clsx("rounded-[24px] bg-gray", contentClassName)}
-      >
+      <div onClick={(e) => e.stopPropagation()} className={contentClassName}>
         {children}
       </div>
     </div>

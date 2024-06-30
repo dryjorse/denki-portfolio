@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { FC } from "react";
 import ContentLoader, { IContentLoaderProps } from "react-content-loader";
 
@@ -15,15 +16,9 @@ const Skeleton: FC<Props> = ({ rounded = 0, ...props }) => {
       style={{ maxWidth: props.width }}
       {...props}
       width="100%"
+      className={clsx("overflow-hidden", props.className)}
     >
-      <rect
-        x="0"
-        y="0"
-        rx={rounded}
-        ry={rounded}
-        width="100%"
-        height={props.height}
-      ></rect>
+      <rect x="0" y="0" width="100%" height={props.height}></rect>
     </ContentLoader>
   );
 };

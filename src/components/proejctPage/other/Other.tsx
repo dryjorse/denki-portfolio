@@ -23,21 +23,31 @@ const Other: FC<Props> = ({ id, spec }) => {
     .slice(0, 6);
 
   return (
-    <div className="border border-black rounded-[20px] pt-[27px] px-[22px] pb-[33px] flex-[0_1_568px]">
-      <h2 className="mb-60 font-bold text-[64px] leading-[70px] text-center">
+    <div className="border border-black rounded-[20px] pt-[27px] px-[22px] pb-[33px] flex-[0_1_568px] blt:flex-auto tb:px-10">
+      <h2 className="mb-60 font-bold text-[64px] leading-[70px] text-center blt:leading-[45px] blt:mb-20 tb:text-[32px] tb:text-light-gray">
         {t("project.other")}
       </h2>
-      <div className="flex gap-[4px] flex-wrap">
+      <div className="flex gap-[4px] flex-wrap tb:justify-center">
         {isFetching || !data
           ? [...new Array(6)].map((_, key) => (
-              <Skeleton key={key} width={170} height={115} rounded={12} />
+              <div key={key} className="w-[170px] h-[115px] bmb:w-full">
+                <Skeleton
+                  width="100%"
+                  height="100%"
+                  className="rounded-[12px]"
+                />
+              </div>
             ))
           : projects?.map((project) => (
-              <Link to={`/projects/${project.id}/`}>
+              <Link
+                key={project.id}
+                to={`/projects/${project.id}/`}
+                className="bmb:w-full"
+              >
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="rounded-[12px] w-[170px] h-[115px] object-cover object-center"
+                  className="rounded-[12px] w-[170px] h-[115px] object-cover object-center bmb:w-full"
                 />
               </Link>
             ))}
